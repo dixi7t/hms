@@ -62,7 +62,15 @@ This project is a simple Hotel Management System developed using MySQL. It cover
 
 ---
 
-## 📝 Author
+## 📝 Authors
 
 This project is part of an academic assignment to practice database design and SQL operations using MySQL.
+
+**Team Members:**
+- Dixit Prajapati (dp81128n@pace.edu)
+- Neha Mukunda (nm21277n@pace.edu)
+- Anitta Jaison (aj61057n@pace.edu)
+
+**Institute:** Pace University  
+**Course:** Database Management Systems 22634 (SPRING 2025)
 
