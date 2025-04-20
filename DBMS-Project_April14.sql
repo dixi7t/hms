@@ -265,3 +265,5 @@ CREATE TABLE reservation_status (
     FOREIGN KEY (booking_id) REFERENCES bookings(booking_id)
         ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
