@@ -55,7 +55,7 @@ LEFT JOIN discounts d ON b.discount_id = d.discount_id
 JOIN guests g ON b.guest_id = g.guest_id
 ORDER BY b.booking_id DESC;
 
---  Bonus: Financial Report View
+--  6. MIS Financial Report View
 CREATE OR REPLACE VIEW full_financial_summary AS
 SELECT 
     i.invoice_id,
@@ -74,6 +74,4 @@ SELECT
 FROM invoices i
 JOIN bookings b ON i.booking_id = b.booking_id
 JOIN guests g ON b.guest_id = g.guest_id;
-
---  Query the view
 SELECT * FROM full_financial_summary;

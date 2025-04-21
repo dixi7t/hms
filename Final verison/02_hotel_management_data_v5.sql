@@ -1,3 +1,27 @@
+-- 				*** Statistical Summary of Data Inserts	***            
+-- ----------------------------------------------------------------------
+						-- Table-wise Record Counts:
+-- ----------------------------------------------------------------------
+--   addresses             : 100 records
+--   star_ratings          : 5 records
+--   hotel_chains          : 20 records
+--   hotels                : 50 records
+--   room_types            : 4 records
+--   rooms                 : 400 records
+--   guests                : 200 records
+--   reservation_statuses  : 5 records
+--   discounts             : 20 records
+--   bookings              : 1005 records
+--   booked_rooms          : 1003 records
+--   hotel_services        : 100 records
+--   hotel_service_usages  : 500 records
+--   invoices              : 1003 records
+--   feedbacks             : 300 records
+--   maintenances          : 150 records
+--   hotel_chain_hotels    : 20 records
+--   room_rate_discounts   : 20 records
+-- ----------------------------------------------------------------------
+
 -- addresses
 INSERT INTO addresses (address_id, street, city, state, zip_code, country, created_at, updated_at) VALUES
 (1, '43321 Brittany Bypass', 'North Jefferyhaven', 'Rhode Island', '03979', 'Moldova', '2025-04-19 04:49:24', '2025-04-19 04:49:24'),
@@ -4900,3 +4924,16 @@ INSERT INTO maintenances (maintenance_id, room_id, maintenance_type, description
 (149, 166, 'Plumbing', 'Day reason order rest conference glass.', '2023-09-12', '2024-01-18', 'Completed', 270.16, '2025-04-19 04:49:24', '2025-04-19 04:49:24'),
 (150, 2, 'Plumbing', 'More leg purpose interview.', '2023-11-21', '2023-12-25', 'Completed', 156.24, '2025-04-19 04:49:24', '2025-04-19 04:49:24');
 
+-- hotel_chain_hotels
+INSERT INTO hotel_chain_hotels (chain_id, hotel_id) VALUES
+(1, 1), (2, 2), (3, 3), (4, 4), (5, 5),
+(6, 6), (7, 7), (8, 8), (9, 9), (10, 10),
+(11, 11), (12, 12), (13, 13), (14, 14), (15, 15),
+(16, 16), (17, 17), (18, 18), (19, 19), (20, 20);
+
+-- room_rate_discounts
+INSERT INTO room_rate_discounts (discount_id, room_type_id) VALUES
+(1, 1), (2, 2), (3, 3), (4, 4), (5, 1),
+(6, 2), (7, 3), (8, 4), (9, 1), (10, 2),
+(11, 3), (12, 4), (13, 1), (14, 2), (15, 3),
+(16, 4), (17, 1), (18, 2), (19, 3), (20, 4);

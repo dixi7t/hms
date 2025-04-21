@@ -1,3 +1,26 @@
+/* ========================================================================
+   Project : Hotel Management System - Database Schema
+   File    : hotel_management_schema.sql
+   Authors : 
+       - Dixit Prajapati (dp81128n@pace.edu)
+       - Neha Mukunda    (nm21277n@pace.edu)
+       - Anitta Jaison   (aj61057n@pace.edu)
+   Date    : April 21, 2025
+
+   Purpose : 
+       This script creates the full database schema for the Hotel Management System.
+       It includes definitions for hotels, guests, rooms, bookings, services, 
+       invoices, maintenance, feedback, and more, establishing a robust structure 
+       with referential integrity and performance-focused indexing.
+
+   Features:
+       - Drops and recreates the database
+       - Modular, normalized table design
+       - Foreign keys and constraints for data integrity
+       - Indexes for optimized search and joins
+       - ENUMs and CHECK constraints for controlled values
+/* ========================================================================
+
 -- Delete and recreate the database
 DROP DATABASE IF EXISTS hotel_management;
 CREATE DATABASE hotel_management;
